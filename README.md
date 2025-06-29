@@ -56,7 +56,7 @@ ClimateX is an open-source project, and we welcome contributions from the commun
 
 Connect with fellow weather enthusiasts and contributors by joining the ClimateX community:
 
-- **GitHub Repository**: [Link](https://github.com/Raghu1124/ClimateX.git)
+- **GitHub Repository**: [Link](https://github.com/suniltirwal1012/ClimateXman)
   
 - **Discussion Forum**: Engage in discussions, ask questions, and share your insights on our community forum.
 

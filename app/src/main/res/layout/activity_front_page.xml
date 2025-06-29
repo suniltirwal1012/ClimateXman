@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frontpagebg"
+    android:gravity="center"
+    tools:context=".FrontPage">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/logo"
+        android:contentDescription="logo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="9dp"
+        android:orientation="vertical"
+        android:paddingTop="560dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="3dp"
+            android:text="City / State"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/cityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/namebg"
+                android:hint="Enter your city or state name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="19dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/hintcolor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/submitbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/submitbtn"
+                android:text="Search"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
